@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Student Portfolio</title>
+    </head>
+
+    <body>
+
+        <h1>Student Portfolio</h1>
+
+        <img src="PortfolioPic.png" height="150" width="150" style="border-radius: 50%;">
+
+        <form>
+
+            <fieldset>
+                <legend>Information</legend>
+
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td>Mohaimenul Islam Abeer</td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Age">Age:</label></td>
+                        <td><input type="number" id="Age" name="Age" placeholder="Enter Your Age"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="CGPA">CGPA:</label></td>
+                        <td><input type="number" id="CGPA" name="CGPA" step="0.01" placeholder="Enter Your CGPA"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Credits">Credits Completed:</label></td>
+                        <td><input type="number" id="Credits" name="Credits" placeholder="Enter Completed Credits"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Education</legend>
+
+                <table>
+                    <tr>
+                        <td><label for="Exam">Exam:</label></td>
+                        <td>
+                            <select id="Exam" name="Exam">
+                                <option>Select Exam</option>
+                                <option>SSC</option>
+                                <option>HSC</option>
+                                <option>BSc</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Board">Board:</label></td>
+                        <td>
+                            <select id="Board" name="Board">
+                                <option>Select Board</option>
+                                <option>Dhaka</option>
+                                <option>Chittagong</option>
+                                <option>Rajshahi</option>
+                                <option>Comilla</option>
+                                <option>Jessore</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Year">Year Passed:</label></td>
+                        <td><input type="number" id="Year" name="Year" placeholder="Enter Passing Year"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Interested</legend>
+
+                <table>
+                    <tr>
+                        <td><label>Hobby:</label></td>
+                        <td>
+                            <input type="checkbox" id="Reading" name="Hobby">
+                            <label for="Reading">Reading</label>
+
+                            <input type="checkbox" id="Gaming" name="Hobby">
+                            <label for="Gaming">Gaming</label>
+
+                            <input type="checkbox" id="Travelling" name="Hobby">
+                            <label for="Travelling">Travelling</label>
+
+                            <input type="checkbox" id="Photography" name="Hobby">
+                            <label for="Photography">Photography</label>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+
+    </body>
+</html>
